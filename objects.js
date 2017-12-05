@@ -3,5 +3,9 @@ var playlist ={
 }
 
 function updatePlaylist(playlist,artistName, songTitle){
-  Kanye: "Gold Digger"
+  Object.assign({},{Kanye: "Gold Digger"});
+}
+
+function removeFromPlaylist(playlist,artistName){
+  delete playlist.Kanye;
 }
